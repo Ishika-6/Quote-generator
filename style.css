@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+}
+
+body{
+    background-color: rgba(253, 68, 35, 0.887);
+    height: 100vh;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 2.1rem;
+}
+
+.items{
+    margin: 7%;
+    margin-top: 3%;
+    height: 70%;
+    background-color: beige;
+    width: 30%;
+    position: relative;
+    left: 30%;
+    border-radius: 10px
+}
+.container{
+    position: absolute;
+    left: -16%;
+    top: 10%;
+    background-color: rgba(253, 68, 35, 0.887);
+    width: 130%;
+    height: 80%;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5); 
+    
+}
+
+p{
+    
+    padding: 3%;
+    /* background-color:rgba(254, 213, 206, 0.856) ; */
+    border-radius: 10px;
+    font-size: 1.2rem;
+    /* color: rgba(253, 68, 35, 0.801); */
+    color: rgb(255, 252, 251);
+    font-weight: 500;
+    
+}
+h3{
+    /* margin-left: 18%; */
+    padding: 2%;
+    font-size: 1.4rem;
+}
+.create-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+button{
+    position: absolute;
+    bottom: 20%;
+    color: rgba(253, 68, 35, 0.887);
+    background-color: white;
+    border: 2px solid rgb(255, 51, 15);
+    font-weight: 600;
+    font-size:1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgba(253, 68, 35, 0.887);
+    color: white;
+    border: 2px solid white;
+}
+.quotes{
+    border: 1px solid white;
+    padding:2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
