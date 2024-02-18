@@ -12,6 +12,13 @@ async function randomQuote() {
     author.innerHTML="<h3>"+q.author+"</h3>"
   }
 
+  btn.addEventListener("click", () => {
+    btn.classList.add("click");
+    setTimeout(() => {
+        btn.classList.remove("click");
+    }, 2000);
+});
+
   btn.addEventListener("click", randomQuote);
 randomQuote();
 
