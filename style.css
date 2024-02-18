@@ -96,11 +96,11 @@ button:hover{
 @media screen and (max-width: 700px) {
     .items {
         width: 70%;
-        left: 2%;
+        left:3%;
     }
     h1{
         width: 80%;
-        margin-left: 15px;
+        margin-left: 20px;
     }
     .container {
         width: 130%;
@@ -113,5 +113,11 @@ button:hover{
     }
     button {
         bottom: 10%;
+
+    }
+    button:hover{
+        background-color: rgba(253, 68, 35, 0.887);
+        color: white;
+        border: 2px solid white;
     }
 }
